@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>D21x 产品介绍</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2023-12-27"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter print="printonly">
+        <topicref href="topics/product/copyright-claims.dita"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="topics/product/d21x-overview.dita"/>
+    <chapter href="topics/quickstart/product-intro-luban.dita"/>
+</bookmap>

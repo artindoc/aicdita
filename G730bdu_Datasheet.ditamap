@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>G730BDU Datasheet</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <created date="2024-07-05"/>
+            <!--yan.wang-->
+            <revised modified="2024-07-05"/>
+        </critdates>
+        <bookid>
+            <edition value="1.0"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2024 ArtInChip Technology Co., Ltd. ">Copyright ©
+                    2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_g730bdu.ditaval"/>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref href="maps/reusedMasterMaps.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita" print="printonly"/>
+        <topicref href="topics/revinfo/revInfo_JYX68_Datasheet.dita" keys="revInfo_JYX68_Datasheet"
+            print="printonly"/>
+        <booklists/>
+    </frontmatter>
+    <chapter href="topics/product/g730bdu-overview.dita" keys="g730bdu-overview"/>
+    <chapter href="topics/product/g730bdu-feature.dita" keys="g730bdu-feature"/>
+    <chapter href="topics/product/g730bdu-product-compare.dita" keys="g730bdu-product-compare"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d13x-e-feature.dita" keys="electronical-feature">
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-operation-condition.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-pullup-down-timing.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-built-in-ldo-feature.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-clock.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-io-feature.dita"/>
+    </chapter>
+    <chapter href="topics/product/d13x-chapter-packaging.dita" keys="packaging">
+        <topicref xml:lang="zh-CN" href="topics/product/g730bdu-pinmap.dita"
+            keys="g730bdu-pin-distribute"/>
+        <topicref xml:lang="zh-CN" href="topics/product/g730-pin-attribute.dita"
+            keys="g730-pin-attribute"/>
+        <topicref xml:lang="zh-CN" href="topics/product/g730bdu-pinmux.dita" keys="g730bdu-pinmux">
+            <topicref xml:lang="zh-CN" href="topics/product/g730bdu-qfn68-packaging.dita"
+                keys="g730bdu-qfn68-packaging"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/product/g730bdu-pin-signal-description.dita"
+            keys="g730bdu-pin-signal-description"/>
+        <topicref xml:lang="zh-CN" href="topics/product/g730bdu-packaging-size.dita"
+            keys="g730bdu-packaging-size"/>
+    </chapter>
+    <backmatter>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            processing-role="resource-only"/>
+        <keydef xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            keys="DatasheetRevInfo"/>
+        <topicref href="reusables/rev-info-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

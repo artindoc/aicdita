@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D13x 产品介绍</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2023-12-21"/>
+            <!--yan.wang-->
+            <revised modified="2024-02-01"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="topics/product/copyright-claims.dita" print="printonly"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="topics/product/d13x-overview.dita"/>
+    <chapter href="topics/quickstart/product-intro-luban_lite.dita"/>
+    <chapter href="topics/product/d13x-application.dita"/>
+</bookmap>

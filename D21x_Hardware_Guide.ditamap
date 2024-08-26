@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh">
+    <booktitle>
+        <mainbooktitle>D21x 硬件指南</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <created date="2024-01-11"/>
+            <!--yan.wang-->
+            <revised modified="2024-07-10"/>
+        </critdates>
+        <bookid>
+            <edition value="1.3"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2020-2024 ArtInChip Technology Co., Ltd. ">Copyright
+                    © 2020-2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="maps/hardware-guide-reused-map.ditamap" format="ditamap"/>
+    <backmatter>
+        <topicref href="filters/d21x-product-keys.ditamap" format="ditamap" product="D21x"/>
+        <topicref href="reusables/hardware-guide-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

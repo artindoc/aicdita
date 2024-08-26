@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>TR230 数据手册</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <created date="2024-07-05"/>
+            <!--yan.wang-->
+            <revised modified="2024-07-05"/>
+        </critdates>
+        <bookid>
+            <edition value="1.0"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2024 ArtInChip Technology Co., Ltd. ">Copyright ©
+                    2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_TR230.ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-TR230</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-TR230</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita" print="printonly"/>
+        <topicref href="topics/revinfo/revInfo_TR230_Datasheet.dita" keys="revInfo_TR230_Datasheet"/>
+        <keydef xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            keys="DatasheetRevInfo"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter xml:lang="zh-CN" href="topics/product/d12x-overview.dita" keys="d12x-overview"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d12x-feature.dita" keys="d12x-feature"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d12x-product-compare.dita" keys="product-compare"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d13x-e-feature.dita" keys="electronical-feature">
+        <topicref xml:lang="zh-CN" href="topics/product/d12x-operation-condition.dita"/>
+        <topicref href="topics/product/d12x-pu-pd-reset.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d12x-built-in-ldo-feature.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-io-feature.dita"/>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/d12x-packaging-info.dita" keys="packaging">
+        <topicref xml:lang="zh-CN" href="topics/product/d12x-pin-distribute.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d12x-pin-attribute.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d12x-pin-mux.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-pin-signal-description.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d12x-packaging-size.dita"/>
+    </chapter>
+    <backmatter>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            processing-role="resource-only"/>
+        <topicref href="reusables/tr230-product-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

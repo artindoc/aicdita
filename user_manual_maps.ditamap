@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>用户手册_maps</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <created date="2024-02-21"/>
+            <!--yan.wang-->
+            <revised modified="2024-02-21"/>
+        </critdates>
+    </bookmeta>
+    <chapter href="maps/user-manual-reused-map.ditamap" format="ditamap"/>
+    <chapter href="D12x_User_Manual.ditamap" format="ditamap"/>
+    <chapter href="D13x_User_Manual.ditamap" format="ditamap" xml:lang="zh-CN"/>
+    <chapter href="D21x_User_Manual.ditamap" format="ditamap" collection-type="sequence"
+        xml:lang="zh-CN"/>
+    <chapter href="M6800%20%E7%B3%BB%E5%88%97%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.ditamap" format="ditamap"/>
+    <chapter href="1606_User_Manual.ditamap" format="ditamap" xml:lang="zh-CN"/>
+    <backmatter/>
+</bookmap>

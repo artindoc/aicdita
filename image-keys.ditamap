@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>image-keys</title>
+    <keydef keys="image_count-add-minus" href="images/coun+-1.png" format="png"
+        product="p1603 p1608 p1610">
+        <topicmeta>
+            <keywords>
+                <keyword/>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="image_count-add-minus" format="png" product="p1602" href="images/coun+-.png">
+        <topicmeta>
+            <keywords>
+                <keyword/>
+            </keywords>
+        </topicmeta>
+    </keydef>
+</map>

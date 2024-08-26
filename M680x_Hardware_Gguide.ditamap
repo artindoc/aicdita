@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle><ph keyref="product-name"/> 硬件指南</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+    </bookmeta>
+    <frontmatter>
+        <keydef keys="product-name">
+            <topicmeta>
+                <keywords>
+                    <keyword>M6800 系列</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+    </frontmatter>
+    <chapter href="maps/hardware-guide-reused-map.ditamap" format="ditamap"/>
+    <backmatter>
+        <topicref href="reusables/hardware-guide-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

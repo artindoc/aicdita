@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN" collection-type="sequence" id="com.AICLib">
+    <booktitle>
+        <mainbooktitle>AIC 文档中心</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <!--For external release-->
+        <author type="contributor">yan.wang</author>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-05-31"/>
+        </critdates>
+        <bookid>
+            <edition value="1.0.4"/>
+            <maintainer>
+                <organization name="Copyright © 2022-2024 ArtInChip Technology Co., Ltd."/>
+            </maintainer>
+        </bookid>
+    </bookmeta>
+    <frontmatter collection-type="sequence">
+        <ditavalref href="filters/ditaval_external_book.ditaval" format="ditaval"/>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref href="maps/reusedMasterMaps.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <topicref href="maps/ExternalReferences.ditamap" format="ditamap"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="topics/lib-intro.dita" xml:lang="zh-CN" toc="no">
+        <topicmeta xml:lang="zh-CN">
+            <shortdesc>欢迎来到 <b>AIC 文档中心</b>！</shortdesc>
+            <data name="wh-menu">
+                <data name="hide" value="yes"/>
+            </data>
+        </topicmeta>
+    </chapter>
+    <chapter href="topics/lib-quickstart.dita" xml:lang="zh-CN" keyscope="lib-start"
+        keys="lib-start">
+        <topicmeta xml:lang="zh-CN">
+            <data name="wh-menu">
+                <data name="hide" value="yes"/>
+            </data>
+        </topicmeta>
+        <topicref href="topics/product/keyliterature.dita" xml:lang="zh-CN" audience="Internal"/>
+        <topicref href="topics/product/keyVedios.dita" xml:lang="zh-CN" audience="Internal"/>
+    </chapter>
+    <chapter href="topics/product/aic-chapter-product-doc.dita" xml:lang="zh-CN"
+        collection-type="sequence" keyscope="product-doc" keys="product-doc">
+        <topicref href="topics/product/d12x-doc.dita" xml:lang="zh-CN" keys="d12x-library"
+            product="p1605 D12x" otherprops="deliverable(D12x)">
+            <ditavalref href="filters/ditaval_D12x.ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-d12x</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-d12x</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <topicref href="D12x_Library.ditamap" format="ditamap" keyscope="D12x"
+                product="p1605 D12x"/>
+        </topicref>
+        <topicref href="topics/product/d13x-doc.dita" keys="d13x-library" product="p1603 D13x"
+            otherprops="deliverable(D13x)">
+            <ditavalref href="filters/ditaval_D13x.ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-d13x</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-d13x</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <topicref href="D13x_Library.ditamap" format="ditamap" keyscope="D13x"
+                product="p1603 D13x"/>
+        </topicref>
+        <topicref href="topics/product/d21x-doc.dita" keys="d21x-library" product="p1602 D21x"
+            otherprops="deliverable(D21x)">
+            <ditavalref href="filters/ditaval_D21x.ditaval" format="ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-d21x</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-d21x</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <topicref href="D21x_Library.ditamap" format="ditamap" keyscope="D21x"
+                product="p1602 D21x"/>
+        </topicref>
+        <topicref href="topics/product/m680x-doc.dita" keys="m680x-library" xml:lang="zh-CN"
+            product="p1603 M680x" otherprops="deliverable(M680x)">
+            <ditavalref href="filters/ditaval_M680x.ditaval" format="ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-M6800</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-M6800</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <keydef keys="product-name" product="M680x">
+                <topicmeta>
+                    <keywords>
+                        <keyword>M6800 系列</keyword>
+                    </keywords>
+                </topicmeta>
+            </keydef>
+            <topicref href="M6800_Library.ditamap" format="ditamap" xml:lang="zh-CN"
+                keyscope="M680x" product="p1603 M680x"/>
+        </topicref>
+    </chapter>
+    <chapter href="topics/product/chapter-sdk.dita" keys="chapter-sdk">
+        <topicref href="topics/sdk/linux-sdk-user-guide.dita" xml:lang="zh-CN" keyscope="luban"
+            keys="linux-guide" platform="Luban">
+            <ditavalref href="filters/ditaval%20for%20luban.ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-luban</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-luban</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <topicref href="Linux_SDK.ditamap" format="ditamap" xml:lang="zh-CN" keyscope="luban"
+                platform="Luban"/>
+        </topicref>
+        <topicref href="topics/sdk/luban-Lite-user-guide.dita" xml:lang="zh-CN"
+            collection-type="sequence" keyscope="luban-lite" keys="rtos-guide" platform="Luban-Lite">
+            <ditavalref href="filters/ditaval%20for%20luban-lite.ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-luban-lite</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-luban-lite</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <topicref href="RTOS_SDK.ditamap" format="ditamap" xml:lang="zh-CN"
+                keyscope="luban-lite" platform="Luban-Lite"/>
+        </topicref>
+        <topicref href="topics/sdk/baremetal-sdk-user-guide.dita" collection-type="sequence"
+            xml:lang="zh-CN" keyscope="baremetal" keys="baremetal" platform="Baremetal">
+            <ditavalref href="filters/ditaval%20for%20baremetal.ditaval">
+                <ditavalmeta>
+                    <dvrResourceSuffix>-baremetal</dvrResourceSuffix>
+                    <dvrKeyscopeSuffix>-baremetal</dvrKeyscopeSuffix>
+                </ditavalmeta>
+            </ditavalref>
+            <topicref href="Baremetal_SDK.ditamap" format="ditamap" xml:lang="zh-CN"
+                collection-type="sequence" keyscope="baremetal" platform="Baremetal"/>
+        </topicref>
+    </chapter>
+    <chapter href="topics/product/chapter-dev-tool.dita" collection-type="sequence" xml:lang="zh-CN"
+        keys="dev-tool" keyscope="dev-tool">
+        <topicref href="maps/DevToolGuide.ditamap" format="ditamap" xml:lang="zh-CN"
+            collection-type="sequence"/>
+    </chapter>
+    <chapter href="topics/sdk/third-party-app.dita" collection-type="sequence" xml:lang="zh-CN"
+        keyscope="third-party-app">
+        <topicref href="maps/third-party-app.ditamap" format="ditamap" xml:lang="zh-CN"/>
+    </chapter>
+    <chapter href="topics/pdf-docs.dita" keys="download-docs" keyscope="download-doc">
+        <topicref href="maps/download-doc.ditamap" format="ditamap"/>
+    </chapter>
+    <backmatter/>
+</bookmap>

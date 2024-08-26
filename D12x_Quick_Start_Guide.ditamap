@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D12x 快速入门</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-05-27"/>
+        </critdates>
+        <bookid>
+            <edition value="1.1"/>
+            <maintainer>
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd."/>
+            </maintainer>
+        </bookid>
+    </bookmeta>
+    <frontmatter>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita" print="printonly"/>
+        <topicref href="topics/revinfo/revInfo_D12x_Quickstart.dita" keys="revInfo_D12x_Quickstart"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="topics/quickstart/d12x-soc.dita" keys="d12x-soc"/>
+    <chapter href="topics/quickstart/dev-boards.dita" keys="dev-boards"/>
+    <chapter href="topics/quickstart/sdk-quick-start-guide.dita" keys="sdk-quick-start-guide"/>
+    <chapter href="topics/quickstart/download-repo.dita" keys="download-repo"/>
+    <chapter href="topics/quickstart/compile-sdk.dita" keys="compile-sdk">
+        <topicref href="topics/quickstart/luban-lite-sdk.dita" keys="luban-lite-sdk"/>
+        <topicref href="topics/quickstart/baremetal.dita" keys="baremetal"/>
+    </chapter>
+    <chapter href="topics/quickstart/burn-sdk.dita" keys="burn-sdk"/>
+    <chapter href="topics/quickstart/boot-tools.dita" keys="boot-tools"/>
+    <chapter href="topics/quickstart/debug-sdk.dita" keys="debug-sdk"/>
+    <chapter href="topics/quickstart/docment-resource.dita" keys="docment-resource"/>
+    <chapter href="topics/quickstart/videos.dita" keys="videos"/>
+    <backmatter>
+        <topicref href="filters/d12x-product-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

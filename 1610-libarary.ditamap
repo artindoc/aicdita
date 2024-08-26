@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>1610 Libarary</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_product_1610.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1610</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1610</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+    </frontmatter>
+    <chapter href="topics/product/1610-user-manual.dita" keys="project_user_manual" keyscope="1610"
+        product="p1610">
+        <ditavalref href="filters/ditaval_product_1610.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1610</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1610</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="1610-user-manual.ditamap" format="ditamap"/>
+    </chapter>
+    <backmatter>
+        <keydef keys="product" product="p1610">
+            <topicmeta>
+                <keywords>
+                    <keyword>1610</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </backmatter>
+</bookmap>

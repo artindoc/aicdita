@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>D215</mainbooktitle>
+    </booktitle>
+    <!--Include all D21x docs-->
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-27"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_D215.ditaval" format="ditaval"/>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref href="maps/reusedMasterMaps.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+    </frontmatter>
+    <chapter href="topics/product/d215-datasheet.dita" keys="d215-datasheet">
+        <topicref href="D215_Datasheet.ditamap" format="ditamap" collection-type="sequence"
+            xml:lang="zh-CN" keyscope="datasheet"/>
+    </chapter>
+    <backmatter>
+        <keydef keys="product" product="D21x">
+            <topicmeta>
+                <keywords>
+                    <keyword>D21x</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </backmatter>
+</bookmap>

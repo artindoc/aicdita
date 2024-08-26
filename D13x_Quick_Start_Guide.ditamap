@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D13x 快速入门</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-08-13"/>
+        </critdates>
+        <bookid>
+            <edition value="1.3"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2020-2024 ArtInChip Technology Co., Ltd. ">Copyright
+                    © 2020-2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref href="topics/product/copyright-claims.dita" print="printonly"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="topics/product/d13x-quickstart-soc-overview.dita" keys="d13x-soc-overview"/>
+    <chapter href="topics/quickstart/sdk-quick-start-guide.dita" keys="sdk-quick-start-guide"/>
+    <chapter href="topics/quickstart/download-repo.dita" keys="download-repo"/>
+    <chapter href="topics/quickstart/compile-sdk.dita" keys="compile-sdk">
+        <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-rtos.dita"
+            keys="luban-lite-sdk"/>
+        <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-baremetal.dita"
+            keys="baremetal"/>
+    </chapter>
+    <chapter href="topics/product/d13x-dev-board.dita" keys="d13x-dev-board" product="D13x">
+        <topicref href="topics/product/d133cbv-v1-0.dita" keys="d133cbv-v1-0"/>
+        <topicref href="topics/product/d133cbs-risc-v-kunlun-pi-v1-0.dita"
+            keys="d133cbs-risc-v-kunlun-pi-v1-0"/>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/quickstart/quick-start-chapter-tool.dita"/>
+    <chapter xml:lang="zh-CN" href="topics/quickstart/quick-start-documents.dita"/>
+    <backmatter>
+        <topicref href="filters/d13x-product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

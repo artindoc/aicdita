@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>
+            <ph keyref="product-name"/>用户手册</mainbooktitle>
+        <booktitlealt>国产自主 RISC-V</booktitlealt>
+    </booktitle>
+    <bookmeta class="- map/topicmeta bookmap/bookmeta ">
+        <author class="- topic/author ">Yan Wang</author>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <created date="2023-11-20"/>
+            <!--yan.wang-->
+            <revised modified="2024-07-10"/>
+        </critdates>
+        <change-historylist/>
+        <bookid>
+            <edition value="1.93"/>
+        </bookid>
+        <bookrights class="- topic/data bookmap/bookrights ">
+            <copyrfirst>
+                <year>2023</year>
+            </copyrfirst>
+            <copyrlast>
+                <year>2024</year>
+            </copyrlast>
+            <bookowner class="- topic/data bookmap/bookowner ">
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd."
+                    class="- topic/data bookmap/organization ">Copyright © 2023-2024 ArtInChip
+                    Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <keydef keys="product-name" product="M680x">
+            <topicmeta>
+                <keywords>
+                    <keyword>M6800 系列</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="maps/reusedMasterMaps.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <topicref href="reusables/reused-topics/userManualRevinfo.dita" processing-role="resource-only"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita" print="printonly"/>
+        <topicref xml:lang="zh-CN" href="topics/product/m680x-User-Manual-revinfo.dita"
+            print="printonly"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter xml:lang="zh-CN" href="topics/product/doc-intro.dita"/>
+    <chapter xml:lang="zh-CN" href="topics/product/m680x-feature.dita" collection-type="sequence"
+        keys="m680x-feature"/>
+    <chapter xml:lang="zh-CN" href="topics/product/m680x-memory-mapping.dita"/>
+    <chapter href="topics/product/m680x-pinmux.dita" keys="m680x-pinmux"/>
+    <chapter xml:lang="zh-CN" href="topics/product/chapter-cpu-bus.dita">
+        <topicref href="topics/ic/cpu/cpu-module4.dita" keys="cpu-module-M680x">
+            <topicref href="topics/ic/cpu/cpu-clic-interrupt-controller.dita"
+                keys="cpu-clic-interrupt-controller"/>
+            <topicref href="topics/ic/cpu/cpu-clic-register.dita" keys="cpu-clic-register"/>
+        </topicref>
+        <topicref href="topics/ic/bus/bus-module4.dita" keys="bus-module-M680x"/>
+        <topicref xml:lang="zh-CN" href="topics/ic/ahbcfg/ahbcfg-module.dita" keys="ahbcfg-module">
+            <topicref href="topics/ic/ahbcfg/ahbcfg-register-list.dita" keys="ahbcfg-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/ahbcfg/ahbcfg-registers.dita"
+                keys="ahbcfg-register"/>
+        </topicref>
+        <topicref href="topics/ic/dma/dma-module-1.1.dita" keys="dma-module-1.1" keyscope="1603">
+            <topicref href="topics/ic/dma/dma-function-1.1.dita" keys="dma-function-1.1"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/dma/dma-register-list.dita"
+                keys="dma-register-list"/>
+            <topicref href="topics/ic/dma/dma-register-1.1.dita" keys="dma-register"/>
+        </topicref>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/chapter-safety.dita">
+        <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-module.dita" keys="ce-module" keyscope="ce-1">
+            <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-function.dita" keys="ce-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-hsk.dita" keys="hardware-safe-key"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-descriptorintro.dita"
+                keys="ce-descriptor-intro">
+                <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-taskdescriptor.dita"
+                    keys="ce-task-descriptor"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-algorithmdescriptor.dita"
+                    keys="ce-algorithm-descriptor"/>
+                <topicref xml:lang="zh-CN" href="topics/sdk/ce-datadescriptor.dita"
+                    keys="ce-data-descriptor"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-register-list.dita"
+                keys="ce-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/ce/ce-register.dita" keys="ce-register"/>
+            <topicref xml:lang="zh-CN" href="topics/sdk/ce-limit.dita" audience="Internal"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/spi-enc/spi-enc-module.dita">
+            <topicref href="topics/ic/spi-enc/spi-enc-signal.dita" keys="spi-enc-signal"
+                audience="Internal"/>
+            <topicref href="topics/ic/spi-enc/spi-enc_function_desc.dita" keys="spi-enc-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/spi-enc/spi-enc-programming.dita"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/spi-enc/spi-enc-register-list.dita"
+                keys="spienc-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/spi-enc/spi-enc-register.dita"
+                keys="spienc-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/sid/sid-module.dita">
+            <topicref href="topics/ic/sid/sid-function.dita" keys="sid-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/sid/sid-programming-guide.dita"
+                keys="sid-programming-guide"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/sid/sid-resgiter-list.dita"
+                keys="sid-resgiter-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/sid/sid-resgiter.dita" keys="sid-register"/>
+        </topicref>
+    </chapter>
+    <chapter href="topics/product/chapter-clock-power.dita" keys="clock-and-power">
+        <topicref xml:lang="zh-CN" href="topics/ic/cmu/cmu-module-v1.dita" keys="cmu-intro">
+            <topicref href="topics/ic/cmu/cmu-function2.dita" keys="cmu-function"/>
+            <topicref href="topics/ic/cmu/cmu-register-list.dita" keys="cmu-register-list"/>
+            <topicref href="topics/ic/cmu/cmu-register.dita" keys="cmu-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/sdk/system_configuration_syscfg.dita">
+            <topicref xml:lang="zh-CN" href="topics/ic/syscfg/syscfg-function.dita"
+                keys="syscfg-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/syscfg/syscfg-register-list.dita"
+                keys="syscfg-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/syscfg/syscfg-register.dita"
+                keys="syscfg-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/wri/wri-module.dita">
+            <topicref xml:lang="zh-CN" href="topics/ic/wri/wri-function.dita" keys="wri-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/wri/wri-register-list.dita"
+                keys="wri-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/wri/wri-register.dita" keys="wri-register"/>
+        </topicref>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/chapter-timer.dita">
+        <topicref xml:lang="zh-CN" href="topics/ic/gtc/gtc-module.dita">
+            <topicref xml:lang="zh-CN" href="topics/ic/gtc/gtc-register-list.dita"
+                keys="gtc-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/gtc/gtc-register.dita" keys="gtc-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/watchdog/watchdog-module.dita">
+            <topicref xml:lang="zh-CN" href="topics/ic/watchdog/watchdog-function.dita"
+                keys="wdog-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/watchdog/watchdog-register-list.dita"
+                keys="wdog-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/watchdog/watchdog-register.dita"
+                keys="wdog-resgiter"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/pwm/pwm-module.dita" keys="pwm-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/pwm/pwm-function.dita">
+                <topicref xml:lang="zh-CN" href="topics/sdk/pwm-time-base-module.dita"
+                    keys="time-base-submodule"/>
+                <topicref xml:lang="zh-CN" href="topics/sdk/pwm-count-comparator.dita"
+                    keys="comparator-submodule"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/pwm/pwm-action-control.dita"
+                    keys="action-control-submodule"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/pwm/pwm-event-trigger.dita"
+                    keys="event-trigger-submodule"/>
+            </topicref>
+            <topicref href="topics/ic/pwm/pwm-register-list.dita" keys="pwm-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/pwm/pwm-register.dita" keys="pwm-register"/>
+        </topicref>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/chapter-interface.dita" keys="interface">
+        <topicref xml:lang="zh-CN" href="topics/ic/usb-device/usb-device-module.dita"
+            keys="usbdev-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/usb-device/usbdev-function.dita"
+                keys="usbdev-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/usb-device/usbdev-register-list.dita"
+                keys="usbdev-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/usb-device/usbdev-register.dita"
+                keys="usbdev-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/mac/mac-module.dita" keys="mac-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/mac/mac-function.dita" keys="mac-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/mac/mac-ieee1588.dita" keys="ieee1588_0"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/mac/mac-register-list.dita"
+                keys="mac-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/mac/mac-register.dita" keys="mac-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-module.dita" keys="qspi-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-function.dita" keys="qspi-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-transfer-mode.dita"
+                    keys="qspi-transfer-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-working-mode.dita"
+                    keys="qspi-working-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-bus-mode.dita"
+                    keys="qspi-bus-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-xip-mode.dita" keys="xip_QSPI"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-burst-transfer.dita"
+                    keys="qspi-burst-transfer"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-sample-mode.dita"
+                    keys="qspi-sample-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-bit-mode.dita"
+                    keys="qspi-bit-mode"/>
+                <topicref href="topics/ic/qspi/qspi-error-status.dita" keys="qspi-error-status"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-programming-guide.dita"
+                keys="qspi-programming-guide"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-register-list.dita"
+                keys="qspi-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/qspi/qspi-register.dita" keys="qspi-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-module.dita" keys="uart-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-function.dita" keys="uart-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-operation-mode.dita"
+                    keys="uart-operating-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-set-CHCFG_AT_BUSY.dita"
+                    keys="uart-set_CHCFG_AT_BUSY"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-set-DLAB.dita"
+                    keys="uart-set_DLAB"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-set-baudrate.dita"
+                    keys="uart-set-baudrate"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-set-busy.dita"
+                    keys="uart-set_busy"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-programming-guide.dita"
+                keys="uart-programming-guide"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-register-list.dita"
+                keys="uart-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/uart/uart-register.dita" keys="uart-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/can/can-module.dita" keys="can-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/can/can-typical-application.dita"
+                keys="can-typical-application">
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-operating-mode.dita"
+                    keys="can-operating-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-bit-timing.dita"
+                    keys="can-bit-timing"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-message.dita"
+                    keys="can-communication-message"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-interrupt-management.dita"
+                    keys="interrupt-management"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-data-buffer.dita" keys="data-buffer"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-receive-filter.dita"
+                    keys="data-receive-filter"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-error-management.dita"
+                    keys="error-management"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-error-capture.dita"
+                    keys="can-error-capture"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/can/can-arblost-cap.dita"
+                    keys="can-arblost-capture"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/can/can-programming-guide.dita"
+                audience="Internal" keys="can-programming-guide"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/can/can-register-list.dita"
+                keys="can-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/can/can-register.dita" keys="can-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/i2c/i2c-module.dita" keys="i2c-module">
+            <topicref href="topics/ic/i2c/i2c-function.dita" keys="i2c-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/i2c/i2c-programming-guide.dita"
+                keys="i2c-programming-guide"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/i2c/i2c-register-list.dita"
+                keys="i2c-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/i2c/i2c-register.dita" keys="i2c-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/pbus/pbus-module.dita" keys="pbus-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/pbus/pbus-function.dita" keys="pbus-function">
+                <topicref href="topics/ic/pbus/pbus-timing-seq-config.dita"
+                    keys="pbus-timing-seq-config"/>
+                <topicref href="topics/ic/pbus/pbus-working-process.dita" keys="pbus-working-process"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/pbus/pbus-register-list.dita"
+                keys="pbus-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/pbus/pbus-registers.dita" keys="pbus-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/gpio/gpio-module.dita"
+            keys="general_purpose_input_output_gpio">
+            <topicref xml:lang="zh-CN" href="topics/ic/gpio/gpio-function.dita" keys="gpio-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/gpio/gpio-register-list.dita"
+                keys="gpio-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/gpio/gpio-register.dita" keys="gpio-register"/>
+        </topicref>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/chapter-analog.dita">
+        <topicref xml:lang="zh-CN" href="topics/ic/adcim/adcim-module.dita" keys="adcim-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/adcim/adcim-function.dita" keys="adcim-feature">
+                <topicref xml:lang="zh-CN" href="topics/ic/adcim/adcim-adc-calibration-function.dita"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/adcim/adcim-programming-guide.dita"
+                keys="adcim-debug-guide"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/adcim/adcim-register-list.dita"
+                keys="adcim-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/adcim/adcim-register.dita" keys="adcim-register"
+            />
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/ths/ths-module.dita" keys="ths-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/ths/ths-function.dita"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/ths/ths-register-list.dita"
+                keys="ths-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/ths/ths-register.dita" keys="ths-register"/>
+        </topicref>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/chapter-servo-system.dita"
+        keys="real-time-control-system">
+        <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-module.dita" keys="pwmcs-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-function.dita" keys="pwmcs-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-module.dita"
+                    keys="epwm-module">
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-counter-function.dita"
+                        keys="pwm-counter-function"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-generator.dita"
+                        keys="pwm-generator">
+                        <topicref xml:lang="zh-CN"
+                            href="topics/ic/pwmcs/pwmcs-epwm-action-control.dita"
+                            keys="pwm-action-control"/>
+                        <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-output-mode.dita"
+                            keys="pwm-output-mode"/>
+                        <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-chopper.dita"
+                            keys="pwm-chopper"/>
+                    </topicref>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-protector.dita"
+                        keys="pwm-protector"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-adc-sampling.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-input-signal-filtering.dita"
+                        keys="pwmcs-input-signal-filtering"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-trigger-signal-output.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-pulse-output.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-harpwm.dita"
+                        keys="pwmcs-hrpwm-function"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-debug_hold.dita"/>
+                </topicref>
+                <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-cap-module.dita">
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-cap-counter.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-cap-capture-input.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-cap-regular-pwm-output.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-cap-interrupt.dita"/>
+                </topicref>
+                <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-module.dita">
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-decode.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-location-counter.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-time-capture.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-hall-monitor.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-timer.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-watchdog-timer.dita"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-interrupt.dita"/>
+                </topicref>
+                <topicref href="topics/ic/pwmcs/pwmcs-qout-module.dita" keys="pwmcs-qout"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-global-control.dita"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-register-list.dita"
+                keys="pwmcs-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-epwm-register.dita"
+                keys="epwm-register"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-cap-registers.dita"
+                keys="cap-register"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-qep-register.dita"
+                keys="qep-register"/>
+            <topicref href="topics/ic/pwmcs/pwmcs-qout-register.dita" keys="qout-register"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/pwmcs/pwmcs-global-control-register.dita"
+                keys="global-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/hcl/hcl-module.dita" keys="hcl-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/hcl/hcl-function.dita" keys="hcl-function"/>
+            <topicref href="topics/ic/hcl/hcl-register-list.dita" keys="hcl-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/hcl/hcl-registers.dita" keys="hcl-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-module.dita" keys="cordic-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-function.dita"
+                keys="cirdic-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-cosine.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-sine.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-phase.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-mod.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-arctan.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-atan2.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-sinh.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-cosh.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-atanh.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/square_root.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-input-output-format.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-operation.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-interrupt.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/hcl/hcl-priority.dita"/>
+            </topicref>
+            <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-register-list.dita"
+                keys="cordic-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/cordic/cordic-register.dita"
+                keys="cordic-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/sdfm/sdfm-module.dita">
+            <topicref xml:lang="zh-CN" href="topics/ic/sdfm/sdfm-function.dita">
+                <topicref xml:lang="zh-CN"
+                    href="topics/ic/sdfm/sdfm-serial-communication-decoding.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/sdfm/sdfm-SINC-filter.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/sdfm/sdfm-interrupt-signal.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/sdfm/sdfm-fifo.dita"/>
+            </topicref>
+            <topicref href="topics/ic/sdfm/sdfm-register-list.dita" keys="sdfm-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/sdfm/sdfm-registers.dita" keys="sdfm-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta_interface_ta_if.dita" keys="ta-if-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-function.dita">
+                <topicref href="topics/ic/ta-if/ta-if-t-format-function.dita" keys="t-format-interface">
+                    <topicref xml:lang="zh-CN" href="topics/ic/ta-if/t_format_TA_IF.dita"
+                        keys="t-format-command"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/ta-if/t_format_0_TA_IF.dita"
+                        keys="t-format-field"/>
+                </topicref>
+                <topicref href="topics/ic/ta-if/ta-if-a-format-function.dita" keys="a-format-interface">
+                    <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-a-format-cmd.dita"
+                        keys="a-format-command"/>
+                    <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-a-format.dita"
+                        keys="a-format-field"/>
+                </topicref>
+                <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-interrupt.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-timing-control.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-hardware-trigger-mode.dita"
+                    keys="ta-hw-trigger"/>
+            </topicref>
+            <topicref href="topics/ic/ta-if/ta-if-register-list.dita" keys="ta-if-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-registers.dita"
+                keys="ta-if-register">
+                <topicref href="topics/ic/ta-if/common_TA_IF.dita" keys="common-register"/>
+                <topicref href="topics/ic/ta-if/t_format_1_TA_IF.dita" keys="t-format-register"/>
+                <topicref href="topics/ic/ta-if/ta-if-a-format-register.dita" keys="a-format-register"/>
+                <topicref href="topics/ic/ta-if/timing_TA_IF.dita" keys="timing-register"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/ta-if/ta-if-version-register.dita"
+                    keys="version-register"/>
+            </topicref>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/biss-if/biss-if-module.dita" keys="biss-if-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/biss-if/biss-if-function.dita"
+                keys="biss-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/biss-if/bissc-working-mode.dita"
+                    keys="biss-working-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/biss-if/biss-if-sii-working-mode.dita"
+                    keys="ssi-working-mode"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/biss-if/biss-if-status-register.dita"
+                    keys="status-register"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/biss-if/biss-if-timing-adjustment.dita"
+                    keys="biss-time-sequence-adjust"/>
+            </topicref>
+            <topicref href="topics/ic/biss-if/biss-if-register-list.dita" keys="biss-if-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/biss-if/biss-if-register.dita"
+                keys="biss-register-descpt"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/endat-if/endat-if-module.dita"
+            keys="endat-if-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/endat-if/endat-if-function.dita"
+                keys="endat-function"/>
+            <topicref href="topics/ic/endat-if/endat-if-register-list.dita"
+                keys="endat-if-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/endat-if/endate-if-register.dita"
+                keys="endat-if-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/psadc/adc-module.dita">
+            <topicref xml:lang="zh-CN" href="topics/ic/psadc/psadc-function.dita"
+                keys="psadc-function">
+                <topicref xml:lang="zh-CN" href="topics/ic/psadc/psadc-adc-queue.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/psadc/adc-interrupt-generation.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/psadc/psadc-fifo-data.dita"/>
+                <topicref xml:lang="zh-CN"
+                    href="topics/ic/psadc/psadc-adc-sampling-frequency-setting.dita"/>
+                <topicref xml:lang="zh-CN" href="topics/ic/psadc/adc-hcl-fetch-adc-data.dita"/>
+            </topicref>
+            <topicref href="topics/ic/psadc/psadc-register-list.dita" keys="psadc-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/psadc/psadc-register.dita"
+                keys="psadc-register"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/ic/cpm/cpm-module.dita" keys="cpm-module">
+            <topicref xml:lang="zh-CN" href="topics/ic/cpm/cpm-function.dita" keys="cpm-function"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/cpm/cpm-register-list.dita"
+                keys="cpm-register-list"/>
+            <topicref xml:lang="zh-CN" href="topics/ic/cpm/cpm-register.dita" keys="cpm-register"/>
+        </topicref>
+    </chapter>
+    <backmatter>
+        <topicref href="filters/M680x-product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/title-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/book_version_keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/rev-info-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

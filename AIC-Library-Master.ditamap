@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN" collection-type="sequence" id="com.AICLib">
+    <booktitle>
+        <mainbooktitle>AIC 文档中心</mainbooktitle>
+        <booktitlealt>Master-Map</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <created date="2024-01-11"/>
+            <!--yan.wang-->
+            <revised modified="2024-02-28"/>
+        </critdates>
+        <prodinfo>
+            <prodname/>
+        </prodinfo>
+    </bookmeta>
+    <frontmatter collection-type="sequence">
+        <mapref href="filters/subjectScheme_moduleVersion.ditamap" type="subjectScheme" toc="no"/>
+        <mapref href="reusables/master-key-map.ditamap" processing-role="resource-only"/>
+        <mapref href="reusables/RevInfoMaps.ditamap" processing-role="resource-only"/>
+        <topicref href="maps/ExternalReferences.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <mapref href="filters/ditaval%20map.ditamap" processing-role="resource-only"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="AIC-Library-Master-book.ditamap" format="ditamap" navtitle="AIC 文档中心_external"/>
+    <chapter href="AIC-Library-Master-book-internal.ditamap" format="ditamap"
+        navtitle="AIC 文档中心_internal"/>
+    <chapter href="maps/lib-intro.ditamap" format="ditamap"/>
+    <chapter href="maps/AicLibQuickGuide.ditamap" format="ditamap" collection-type="sequence"/>
+    <chapter href="maps/device-doc.ditamap" format="ditamap"/>
+    <chapter href="maps/project-documents.ditamap" format="ditamap"/>
+    <chapter href="maps/sdk-user-guide-master.ditamap" format="ditamap"/>
+    <chapter href="Linux_SDK.ditamap" format="ditamap"/>
+    <chapter href="RTOS_SDK.ditamap" format="ditamap"/>
+    <chapter href="Baremetal_SDK.ditamap" format="ditamap" xml:lang="zh-CN"
+        collection-type="sequence" keyscope="Baremetal"/>
+    <chapter href="maps/DevToolGuide.ditamap" format="ditamap" xml:lang="zh-CN"
+        collection-type="sequence"/>
+    <chapter href="maps/third-party-app.ditamap" format="ditamap"/>
+    <chapter href="maps/dev-board-intro.ditamap" format="ditamap" xml:lang="zh-CN"/>
+    <chapter href="maps/module-maps.ditamap" format="ditamap"/>
+    <chapter href="maps/glossaryMap.ditamap" format="ditamap" collection-type="sequence"/>
+    <backmatter>
+        <booklists>
+            <indexlist/>
+        </booklists>
+    </backmatter>
+</bookmap>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>Baremetal SDK 使用指南</mainbooktitle>
+        <booktitlealt>SDK 指南文件</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-07-10"/>
+        </critdates>
+        <bookid>
+            <edition value="1.2"/>
+        </bookid>
+        <bookrights class="- topic/data bookmap/bookrights ">
+            <bookowner class="- topic/data bookmap/bookowner ">
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd."
+                    class="- topic/data bookmap/organization ">Copyright © 2023-2024 ArtInChip
+                    Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval%20for%20baremetal.ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-baremetal</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-baremetal</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="maps/reusedMasterMaps.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="maps/sdk-overview.ditamap" format="ditamap"/>
+    <chapter href="maps/compilation-structure.ditamap" format="ditamap"/>
+    <chapter href="maps/configuration-structure.ditamap" format="ditamap"/>
+    <chapter href="maps/drive-structure.ditamap" format="ditamap"/>
+    <chapter href="maps/compilation-prep.ditamap" format="ditamap"/>
+    <chapter href="maps/compile-sdk.ditamap" format="ditamap"/>
+    <chapter href="maps/burn-images.ditamap" format="ditamap"/>
+    <chapter href="maps/start.ditamap" format="ditamap"/>
+    <backmatter>
+        <keydef keys="sdk_name" platform="Baremetal">
+            <topicmeta>
+                <keywords>
+                    <keyword>Baremetal</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="reusables/platform-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

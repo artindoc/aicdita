@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle><ph keyref="product-name"/> 数据手册</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-20"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="topics/revinfo/revInfo_1608_Datasheet.dita"
+            xml:lang="zh-CN"/>
+    </frontmatter>
+</bookmap>

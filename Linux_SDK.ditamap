@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>Linux SDK 使用指南</mainbooktitle>
+        <booktitlealt>SDK 指南文件</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-07-10"/>
+        </critdates>
+        <bookid>
+            <edition value="1.2"/>
+        </bookid>
+        <bookrights class="- topic/data bookmap/bookrights ">
+            <bookowner class="- topic/data bookmap/bookowner ">
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd."
+                    class="- topic/data bookmap/organization ">Copyright © 2023-2024 ArtInChip
+                    Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval%20for%20luban.ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-luban</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-luban</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref format="ditamap" processing-role="resource-only"
+            href="maps/reusedMasterMaps.ditamap"/>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="maps/sdk-overview.ditamap" format="ditamap"/>
+    <chapter href="maps/compilation-prep.ditamap" format="ditamap"/>
+    <chapter href="maps/compile-sdk.ditamap" format="ditamap"/>
+    <chapter href="maps/start.ditamap" format="ditamap"/>
+    <chapter href="maps/system.ditamap" format="ditamap"/>
+    <chapter href="maps/memory.ditamap" format="ditamap"/>
+    <chapter href="maps/multi-media.ditamap" format="ditamap"/>
+    <chapter href="maps/interfaces.ditamap" format="ditamap"/>
+    <chapter href="maps/safety.ditamap" format="ditamap"/>
+    <chapter href="maps/applications.ditamap" format="ditamap"/>
+    <chapter href="maps/%E5%A4%96%E8%AE%BE.ditamap" format="ditamap"/>
+    <chapter href="maps/bringup.ditamap" format="ditamap"/>
+    <backmatter>
+        <keydef keys="sdk_name" platform="Luban">
+            <topicmeta>
+                <keywords>
+                    <keyword>Luban</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="reusables/platform-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

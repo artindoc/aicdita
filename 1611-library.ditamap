@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>1611-library</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_product_1611.ditaval" format="ditaval"/>
+    </frontmatter>
+    <backmatter>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

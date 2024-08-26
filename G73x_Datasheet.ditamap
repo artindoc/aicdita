@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>G73x 数据手册</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-20"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="topics/revinfo/revInfo_G73x.dita"/>
+    </frontmatter>
+    <chapter xml:lang="zh-CN" href="topics/product/g73x-product-overview.dita"/>
+    <chapter href="topics/product/g73-feature.dita" keys="g73-feature"/>
+    <chapter href="topics/product/g73x-product-compare.dita" keys="g73x-product-compare"/>
+    <chapter xml:lang="zh-CN" href="topics/product/g73x-e-feature.dita">
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-operation-condition.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-pullup-down-timing.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-built-in-ldo-feature.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-clock.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d13x-io-feature.dita"/>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/g73x-packaging-size.dita">
+        <topicref href="topics/product/g73x-pinmap.dita" keys="g73x-pinmap"/>
+        <topicref href="topics/product/g73x-pin-attribute.dita" keys="g73x-pin-attribute"/>
+        <topicref href="topics/product/g73x-pinmux.dita" keys="g73x-pinmux"/>
+        <topicref href="topics/product/g73x-pin-signal.dita" keys="g73x-pin-signal"/>
+        <topicref href="topics/product/g73x-packaging-size_0.dita" keys="g73x-packaging-size_0"/>
+    </chapter>
+</bookmap>

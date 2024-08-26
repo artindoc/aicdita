@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D21x 数据手册</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-04-25"/>
+        </critdates>
+        <bookid>
+            <edition value="1.3"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd. ">Copyright
+                    © 2020-2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter print="printonly">
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/revinfo/revInfo_D21xDatasheet.dita" print="printonly"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter xml:lang="zh-CN" href="topics/product/d21x-overview.dita"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d21x-featrure.dita" keys="d21x-feature"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d21x-product-compare.dita" keys="product-compare"/>
+    <chapter xml:lang="zh-CN" href="topics/product/d13x-e-feature.dita" keys="e-feature">
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-operation-mode.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/datasheet/rtc-power-supply.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/datasheet/pu-pd-timing-and-reset_reused.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-built-in-ldo-feature.dita"/>
+        <topicref href="topics/product/d21x-clock.dita" keys="clock_d21x"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-io-feature.dita"/>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/d21x-chapter-packaging.dita" keys="packaging">
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-pin-distribute.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-pin-attribute.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-pin-multiplex.dita">
+            <topicref xml:lang="zh-CN" href="topics/product/d21x-packaging-pin.dita"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-pin-description.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-packaging-size.dita"/>
+    </chapter>
+    <backmatter>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            processing-role="resource-only"/>
+        <keydef xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            keys="DatasheetRevInfo"/>
+    </backmatter>
+</bookmap>

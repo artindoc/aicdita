@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D21x 快速入门</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-21"/>
+        </critdates>
+        <bookid>
+            <edition value="1.1"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2020-2023 ArtInChip Technology Co., Ltd. ">Copyright
+                    © 2023-2023 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter print="printonly">
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter xml:lang="zh-CN" href="topics/product/d21x-quick-start-chapter-soc.dita"
+        keys="d21x-soc-overview"/>
+    <chapter href="topics/quickstart/sdk-quick-start-guide.dita" keys="sdk-quick-start-guide"/>
+    <chapter href="topics/quickstart/download-repo.dita" keys="download-repo"/>
+    <chapter href="topics/quickstart/compile-sdk.dita" keys="compile-sdk">
+        <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-linux.dita" keys="linux">
+            <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-install-linux.dita"/>
+            <topicref xml:lang="zh-CN" href="topics/product/download-luban.dita"/>
+            <topicref xml:lang="zh-CN"
+                href="topics/quickstart/quick-start-install-luban-dependency.dita"/>
+            <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-compile-luban.dita"/>
+            <topicref xml:lang="zh-CN" href="topics/quickstart/download-aic-codes.dita"
+                keyscope="Luban"/>
+        </topicref>
+        <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-rtos.dita"
+            keys="luban-lite-sdk"/>
+        <topicref xml:lang="zh-CN" href="topics/quickstart/quick-start-baremetal.dita"
+            keys="baremetal"/>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/product/d21x-dev-board.dita">
+        <topicref xml:lang="zh-CN" href="topics/product/d21x-d211bbV1.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d211bbV2.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d211dcV1.dita"/>
+        <topicref xml:lang="zh-CN" href="topics/product/d213ecV4.dita"/>
+    </chapter>
+    <chapter xml:lang="zh-CN" href="topics/quickstart/quick-start-chapter-tool.dita"
+        keys="boot-tools"/>
+    <chapter xml:lang="zh-CN" href="topics/quickstart/quick-start-documents.dita"/>
+    <backmatter>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

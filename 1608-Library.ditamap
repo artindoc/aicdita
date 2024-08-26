@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>1608 Library</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-27"/>
+        </critdates>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_product_1608.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1608</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1608</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+    </frontmatter>
+    <chapter href="topics/product/1608_user_manual.dita" keys="1608_user_manual">
+        <ditavalref href="filters/ditaval_product_1608.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1608</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1608</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="1608-user-manual.ditamap" format="ditamap"/>
+    </chapter>
+    <backmatter>
+        <keydef keys="product" product="p1608">
+            <topicmeta>
+                <keywords>
+                    <keyword>1608</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </backmatter>
+</bookmap>

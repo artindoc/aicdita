@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D12x 硬件指南</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-07-10"/>
+        </critdates>
+        <bookid>
+            <edition value="1.1"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd. ">Copyright
+                    © 2023-2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <keydef xml:lang="zh-CN" href="reusables/reused-topics/hardware-guide-rev-info.dita"
+            keys="HardwareRevInfo"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita" print="printonly"/>
+        <booklists collection-type="sequence">
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="maps/hardware-guide-reused-map.ditamap" format="ditamap"/>
+    <backmatter>
+        <topicref href="reusables/hardware-guide-keys.ditamap" format="ditamap"/>
+        <topicref href="filters/d12x-product-keys.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

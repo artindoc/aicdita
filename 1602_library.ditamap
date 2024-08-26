@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>1602-library</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_product_1602.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1602</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1602</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+    </frontmatter>
+    <chapter href="topics/product/1602-user-manual.dita" keys="1602-user-manual">
+        <ditavalref href="filters/ditaval_product_1602.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1602</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1602</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="D21x_User_Manual.ditamap" format="ditamap" keyscope="user-manual"/>
+    </chapter>
+    <backmatter>
+        <keydef keys="product" product="1602">
+            <topicmeta>
+                <keywords>
+                    <keyword>1602</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </backmatter>
+</bookmap>

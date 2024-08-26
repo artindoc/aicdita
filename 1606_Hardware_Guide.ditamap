@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle><ph keyref="product-name"/> 硬件指南</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="creator">yan.wang</author>
+        <critdates>
+            <created date="2023-12-19"/>
+            <!--yan.wang-->
+            <revised modified="2024-02-20"/>
+        </critdates>
+    </bookmeta>
+    <chapter href="reusables/reused-topics/hardware-guide-rev-info.dita" xml:lang="zh-CN"/>
+</bookmap>

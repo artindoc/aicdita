@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D12x 产品介绍</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-19"/>
+            <!--yan.wang-->
+            <revised modified="2024-02-20"/>
+        </critdates>
+    </bookmeta>
+    <chapter href="topics/product/d12x-overview.dita" xml:lang="zh-CN"/>
+</bookmap>

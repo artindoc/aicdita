@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>D12x</mainbooktitle>
+    </booktitle>
+    <!--Include all D21x docs-->
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <revised modified="2024-02-27"/>
+        </critdates>
+        <keywords>
+            <indexterm>D12x 数据手册</indexterm>
+            <indexterm>D12x 用户手册</indexterm>
+        </keywords>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_D12x.ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-d12x</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-d12x</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+    </frontmatter>
+    <chapter href="topics/product/d12xBrief.dita" xml:lang="zh-CN" outputclass="two_columns"
+        locktitle="no" audience="Marketing" collection-type="sequence"/>
+    <chapter href="topics/product/d12xProductIntro.dita" audience="Marketing"
+        collection-type="sequence" xml:lang="zh-CN">
+        <topicref href="topics/product/d12x-overview.dita" xml:lang="zh-CN"/>
+    </chapter>
+    <chapter href="topics/product/d12xQuickStartGuide.dita" collection-type="sequence"
+        xml:lang="zh-CN" keyscope="d12x-quickstart" audience="Internal">
+        <topicref href="D12x_Quick_Start_Guide.ditamap" format="ditamap" xml:lang="zh-CN"
+            keyscope="quick-start"/>
+    </chapter>
+    <chapter href="topics/product/d12xDatasheet.dita" collection-type="sequence" xml:lang="zh-CN"
+        keyscope="d12x-datasheet">
+        <topicref href="D12x_Datasheet.ditamap" format="ditamap" xml:lang="zh-CN"/>
+    </chapter>
+    <chapter href="topics/product/d12xUserManual.dita" collection-type="sequence" xml:lang="zh-CN"
+        keyscope="d12x-user-manual">
+        <topicref href="D12x_User_Manual.ditamap" format="ditamap"/>
+    </chapter>
+    <chapter href="topics/product/d12xHardwareUserManual.dita" keys="d12x-hardware-guide">
+        <topicref href="D12x_Hardware_Guide.ditamap" format="ditamap"/>
+    </chapter>
+    <backmatter>
+        <keydef keys="product" product="D12x">
+            <topicmeta>
+                <keywords>
+                    <keyword>D12x</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </backmatter>
+</bookmap>

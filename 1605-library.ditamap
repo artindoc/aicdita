@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>1605_library</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+    </bookmeta>
+    <frontmatter>
+        <ditavalref href="filters/ditaval_product_1605.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1605</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1605</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="maps/reusedMasterMaps.ditamap" format="ditamap"
+            processing-role="resource-only"/>
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+    </frontmatter>
+    <chapter href="topics/product/1605-user-manual.dita" keys="1605-user-manual">
+        <ditavalref href="filters/ditaval_product_1605.ditaval" format="ditaval">
+            <ditavalmeta>
+                <dvrResourceSuffix>-1605</dvrResourceSuffix>
+                <dvrKeyscopeSuffix>-1605</dvrKeyscopeSuffix>
+            </ditavalmeta>
+        </ditavalref>
+        <topicref href="1605-user-manual.ditamap" format="ditamap"/>
+    </chapter>
+    <backmatter>
+        <topicref href="reusables/title-keys.ditamap" format="ditamap"/>
+        <keydef keys="product" product="1605">
+            <topicmeta>
+                <keywords>
+                    <keyword>1605</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

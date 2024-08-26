@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle>1610-user-manual</mainbooktitle>
+    </booktitle>
+    <bookmeta>
+        <author type="contributor">yan.wang</author>
+    </bookmeta>
+    <frontmatter/>
+    <chapter href="maps/%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E.ditamap" format="ditamap"/>
+    <chapter href="maps/%E7%AE%80%E4%BB%8B.ditamap" format="ditamap"/>
+    <chapter href="maps/memory_maps.ditamap" format="ditamap"/>
+    <chapter href="maps/pinmux.ditamap" format="ditamap"/>
+    <chapter href="maps/chapter-processor_bus.ditamap" format="ditamap"/>
+    <chapter href="maps/saftey.ditamap" format="ditamap"/>
+    <chapter href="maps/chapter-clock_and_power.ditamap" format="ditamap"/>
+    <chapter href="maps/chapter-timers.ditamap" format="ditamap"/>
+    <chapter href="maps/interfaces.ditamap" format="ditamap"/>
+    <chapter href="maps/chapter-analog.ditamap" format="ditamap"/>
+    <chapter href="maps/servo_system.ditamap" format="ditamap" product="D13x D21x M680x"/>
+    <chapter href="maps/chapter-verify.ditamap" format="ditamap" audience="Internal"/>
+    <chapter href="maps/mass_produce_test.ditamap" format="ditamap" audience="Internal"/>
+    <backmatter>
+        <topicref href="reusables/product-keys.ditamap" format="ditamap"/>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>

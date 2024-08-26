@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap xml:lang="zh-CN">
+    <booktitle>
+        <mainbooktitle><ph keyref="product-name"/>数据手册</mainbooktitle>
+    </booktitle>
+    <bookmeta class="- map/topicmeta bookmap/bookmeta ">
+        <author class="- topic/author ">Yan Wang</author>
+        <author type="contributor">yan.wang</author>
+        <critdates>
+            <!--yan.wang-->
+            <created date="2023-11-09"/>
+            <!--yan.wang-->
+            <!--yan.wang-->
+            <revised modified="2024-05-31"/>
+        </critdates>
+        <bookid>
+            <edition value="1.93"/>
+        </bookid>
+        <bookrights>
+            <bookowner>
+                <organization name="Copyright © 2023-2024 ArtInChip Technology Co., Ltd. ">Copyright
+                    © 2023-2024 ArtInChip Technology Co., Ltd. </organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter print="printonly">
+        <topicref href="filters/subjectScheme_test.ditamap" format="ditamap"/>
+        <topicref xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            processing-role="resource-only"/>
+        <topicref xml:lang="zh-CN" href="topics/product/copyright-claims.dita" print="printonly"/>
+        <topicref xml:lang="zh-CN" href="topics/product/m680x-datasheet-revinfo.dita" print="printonly"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter xml:lang="zh-CN" href="topics/product/m680x-feature.dita">
+        <topicref href="topics/product/m680x-typical-application.dita"/>
+        <topicref href="topics/product/m680x-block-diagram.dita"/>
+    </chapter>
+    <chapter href="topics/product/m680x-product-info.dita"/>
+    <chapter xml:lang="zh-CN" href="topics/product/m680x-product-compare.dita" keys="m680x-product-compare"/>
+    <chapter href="topics/product/m680x-pin-config-and-function.dita">
+        <topicref href="topics/product/m680x-pin-distribute.dita" keys="m680x-pin-distribute"/>
+        <topicref href="topics/product/m680x-pin-attributes.dita" keys="m680x-pin-attribute"/>
+        <topicref href="topics/product/m680x-pinmux.dita" keys="m680x-pinmux"/>
+        <topicref href="topics/product/m680x-pin-signal-description.dita"
+            keys="m680x-pin-signal-description"/>
+        <topicref href="topics/product/m680x-analog-input-description.dita"
+            keys="m680x-analog-input-description"/>
+    </chapter>
+    <chapter href="topics/product/m680x-chapter-spec.dita" keys="m680x-spec">
+        <topicref href="topics/product/m680x-operation-mode.dita" keys="m680x-operation-condition"/>
+        <topicref href="topics/product/m680x-pu-pd-and-reset.dita" keys="m680x-pu-pd-and-reset"/>
+        <topicref href="topics/product/m680x-built-in-ldo-feature.dita" keys="m680x-internal-ldo-feature"/>
+        <topicref href="topics/product/m680x-chapter-clock.dita" keys="m680x-clock"/>
+        <topicref href="topics/datasheet/io_%E7%94%B5%E6%B0%94%E7%89%B9%E6%80%A7.dita" keys="m680x-io-feature"/>
+        <topicref href="topics/product/m680x-analog-input.dita" keys="m680x-analog-input"/>
+    </chapter>
+    <chapter href="topics/product/m680x-packaging-size.dita" keys="m680x-packaging"/>
+    <chapter href="topics/product/m680x-naming-rule.dita" keys="m680x-naming-rules"/>
+    <backmatter>
+        <topicref href="filters/M680x-product-keys.ditamap" format="ditamap"/>
+        <keydef xml:lang="zh-CN" href="reusables/reused-topics/datasheet-rev-info.dita"
+            keys="DatasheetRevInfo"/>
+        <keydef keys="product-name" product="M680x">
+            <topicmeta>
+                <keywords>
+                    <keyword>M6800 系列</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="reusables/moduleKeymap.ditamap" format="ditamap"/>
+    </backmatter>
+</bookmap>
